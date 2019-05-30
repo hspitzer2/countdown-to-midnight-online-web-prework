@@ -10,9 +10,12 @@ def countdown(number)
   end
 end
 
-def countdown_with_sleep
-  sleep(5)
+def countdown_with_sleep(nap)
+  sleep(nap)
 end
+
+countdown_with_sleep(3)
+countdown_with_sleep(20)
 
 
 # while x > 10
