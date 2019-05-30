@@ -20,9 +20,3 @@ def countdown_with_sleep(number)
 end
 
 
-# while x > 10
-#   puts "#{x} seconds"
-#   x -= 1
-# end
-
-
