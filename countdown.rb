@@ -15,9 +15,9 @@ def countdown_with_sleep
 end
 
 
-while x > 10
-  puts "#{x} seconds"
-  x -= 1
-end
+# while x > 10
+#   puts "#{x} seconds"
+#   x -= 1
+# end
 
 
