@@ -1,11 +1,7 @@
-require 'pry'
-
 def countdown(number)
   while number > 0
-    
     puts "#{number} SECOND(S)!"
     number -= 1
-    
     if number == 0 
       return "HAPPY NEW YEAR!"
     end
@@ -13,7 +9,7 @@ def countdown(number)
 end
 
 def countdown_with_sleep(nap)
-    while number > 0
+  while number > 0
     sleep(nap)
     puts "#{number} SECOND(S)!"
     number -= 1
@@ -22,7 +18,7 @@ def countdown_with_sleep(nap)
     end
   end
 end
-end
+
 
 # while x > 10
 #   puts "#{x} seconds"
