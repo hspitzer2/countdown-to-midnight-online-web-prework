@@ -14,10 +14,6 @@ def countdown_with_sleep(nap)
   sleep(nap)
 end
 
-countdown_with_sleep(3)
-countdown_with_sleep(20)
-
-
 # while x > 10
 #   puts "#{x} seconds"
 #   x -= 1
